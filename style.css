@@ -139,10 +139,9 @@ button:hover {
   text-decoration: solid;
 }
 
-.prix {
-  display: flex;
-  justify-content: center;
-  padding: auto 0%;
+.prix h3 {
+  padding: 20% 0%;
+  text-align: center;
 }
 
 .retouroffre {
