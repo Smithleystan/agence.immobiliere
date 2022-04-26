@@ -263,10 +263,22 @@ footer a:visited {
   footer h3 {
     margin-bottom: 5%;
   }
+  .form {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 650px) {
   .logo {
     width: 100px;
+  }
+
+  @media screen and (min-width: 1000px) {
+    #svg {
+      width: 0%;
+    }
+    #btnmenu {
+      display: none;
+    }
   }
 }
